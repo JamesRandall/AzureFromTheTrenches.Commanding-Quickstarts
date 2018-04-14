@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AzureFromTheTrenches.Commanding.Abstractions" Version="8.0.0-beta555" />
+    <PackageReference Include="FluentValidation" Version="7.5.2" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="2.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\RestApi.Commands\RestApi.Commands.csproj" />
+  </ItemGroup>
+
+</Project>
